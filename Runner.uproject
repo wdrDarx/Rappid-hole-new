@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.24",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Runner",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "SteamVR",
@@ -13,6 +23,11 @@
 				"Linux",
 				"Mac"
 			]
+		},
+		{
+			"Name": "JSONParser",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8eda577c5b594d6b990f91b8dec8a014"
 		}
 	]
 }
